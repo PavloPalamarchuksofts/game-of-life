@@ -37,3 +37,5 @@ John is an experienced consultant and trainer specialising in Enterprise Java, W
 # FeaCHURE 1
 
 # Commit 03
+
+Released v1.1
