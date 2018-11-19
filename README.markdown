@@ -1,6 +1,6 @@
 
 
-[![Build Status](http://104.155.59.244:61008/buildStatus/icon?job=gol_mvn)](http://104.155.59.244:61008/job/gol_mvn/)
+[![Build Status](http://104.155.59.244:61008/buildStatus/icon?job=gol_mvn)](http://104.155.59.244:61008/job/gol-pipe/)
 
 
 This is a simple demonstration application used in the [Jenkins: The Definitive Guide](http://wakaleo.com/books/jenkins-the-definitive-guide) book.
