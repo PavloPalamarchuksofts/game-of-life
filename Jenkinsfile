@@ -21,10 +21,10 @@ withEnv(["JAVA_HOME=${ tool 'open-jdk-8' }", "PATH=${env.JAVA_HOME}/bin:$PATH"])
 		// JUnit Results
 		junit '**/gameoflife-*/target/surefire-reports/*.xml' 
 	}
-	withSonarQubeEnv('sonarc') {
+      // withSonarQubeEnv('sonarc') {
       // requires SonarQube Scanner for Maven 3.2+
-      sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar'
-    }
+      // sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar'
+    //}
     googleStorageUpload([bucket: 'gs://gol-arts', credentialsId: 'jenkins-tasks-ss', pattern: 'gameoflife-web/target/gameoflife.war'])
 }
 }
